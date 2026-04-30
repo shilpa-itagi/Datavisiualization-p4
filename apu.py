@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-
+import pickle
 model =  pickle.load(open('iris_model.pkl','rb'))
 
 st.title('Iris prediction and visualization')
